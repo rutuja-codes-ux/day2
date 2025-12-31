@@ -2,35 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Website</title>
+    <title>Amrutvahini College</title>
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            text-align: center;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            width: 90%;
+            max-width: 800px;
             padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+            text-align: center;
         }
 
         h1 {
+            font-size: 36px;
             color: #333;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
         }
 
         img {
-            width: 300px;
-            height: auto;
-            border-radius: 10px;
-            margin-top: 20px;
+            width: 320px;
+            border-radius: 12px;
+            margin: 20px 0;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            font-size: 16px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #764ba2;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #999;
         }
     </style>
 </head>
 <body>
 
-    <h1>Welcome to Amrutvahini college </h1>
+    <div class="container">
+        <h1>Amrutvahini College</h1>
+        <h2>Learning • Innovation • Excellence</h2>
 
-    <img src= "image.jpg" alt="Website Image">
+        <img src="image.jpg" alt="Amrutvahini College">
 
-    <p>This is my first simple website.</p>
+        <p>
+            Welcome to Amrutvahini College. This website is a simple yet modern
+            representation built using HTML and CSS. Clean design, clear structure,
+            and a professional look — exactly how a beginner project should be done.
+        </p>
+
+        <button>Explore More</button>
+
+        <footer>
+            © 2025 Amrutvahini College
+        </footer>
+    </div>
 
 </body>
 </html>
