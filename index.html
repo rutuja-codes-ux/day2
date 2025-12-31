@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Amrutvahini College</title>
+    <title>Amrutvahini College | Home</title>
 
     <style>
         * {
@@ -15,90 +15,77 @@
             font-family: 'Segoe UI', Tahoma, sans-serif;
             background: linear-gradient(135deg, #667eea, #764ba2);
             min-height: 100vh;
+        }
+
+        nav {
+            background: white;
+            padding: 15px 30px;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        nav h2 {
+            color: #333;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         .container {
             background: white;
             width: 90%;
             max-width: 800px;
+            margin: 60px auto;
             padding: 40px;
             border-radius: 16px;
             box-shadow: 0 15px 40px rgba(0,0,0,0.2);
             text-align: center;
         }
 
-        h1 {
-            font-size: 36px;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            font-size: 18px;
-            color: #666;
-            margin-bottom: 30px;
-        }
-
         img {
             width: 320px;
             border-radius: 12px;
             margin: 20px 0;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
         }
 
         p {
-            font-size: 16px;
             color: #555;
             line-height: 1.6;
-            margin-bottom: 30px;
-        }
-
-        button {
-            background: #667eea;
-            color: white;
-            border: none;
-            padding: 14px 30px;
-            font-size: 16px;
-            border-radius: 30px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        button:hover {
-            background: #764ba2;
-            transform: scale(1.05);
-        }
-
-        footer {
-            margin-top: 30px;
-            font-size: 14px;
-            color: #999;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Amrutvahini College</h1>
-        <h2>Learning • Innovation • Excellence</h2>
-
-        <img src="image.jpg" alt="Amrutvahini College">
-
-        <p>
-            Welcome to Amrutvahini College. This website is a simple yet modern
-            representation built using HTML and CSS. Clean design, clear structure,
-            and a professional look — exactly how a beginner project should be done.
-        </p>
-
-        <button>Explore More</button>
-
-        <footer>
-            © 2025 Amrutvahini College
-        </footer>
+<nav>
+    <h2>Amrutvahini</h2>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
     </div>
+</nav>
+
+<div class="container">
+    <h1>Welcome to Amrutvahini College</h1>
+    <p>Learning • Innovation • Excellence</p>
+
+    <img src="image.jpg" alt="College Image">
+
+    <p>
+        This is a clean and modern website built using HTML and CSS.
+        Navigation is clear, layout is structured, and the design is consistent.
+    </p>
+</div>
 
 </body>
 </html>
